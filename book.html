@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Little Lemon restaurant">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="menu-icons.png">
+    <meta property="og:url" content="https://littlelemon">
+    <meta name="description" content="Reserve a table Ttoday.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Little Lemon restaurant reservation">
+    <link rel="stylesheet" href="./style/index.css">
+    <title>Little Lemon reservation</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo1.png" alt="Logo Little Lemon Restaurant">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a> </li>
+            <li><a href="./menu.html">Menu</a></li>
+            <li><a href="./book.html">Book</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <article>
+                <h2>
+                    Reserve a table in Little Lemon restaurant
+                </h2>
+                <p class="desc">
+                    You’re welcome to reserve a table at the Little Lemon restaurant by calling 📱+12 345 678 or
+                    💻online.
+                </p>
+                <form>
+                    <div class="form-row">
+                        <select name="days">
+                            <option value="day-select">Select Day</option>
+                            <option value="sunday">Sunday</option>
+                            <option value="monday">Monday</option>
+                            <option value="tuesday">Tuesday</option>
+                            <option value="wednesday">Wednesday</option>
+                            <option value="thursday">Thursday</option>
+                            <option value="friday">Friday</option>
+                            <option value="saturday">Saturday</option>
+                        </select>
+
+                        <select name="hours">
+                            <option value="hour-select">Select Hour</option>
+                            <option value="10">10: 00</option>
+                            <option value="10">12: 00</option>
+                            <option value="10">14: 00</option>
+                            <option value="10">16: 00</option>
+                            <option value="10">18: 00</option>
+                            <option value="10">20: 00</option>
+                            <option value="10">22: 00</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <input type="text" placeholder="Full Name">
+                        <input type="text" placeholder="Phone Number">
+                    </div>
+
+                    <div class="form-row">
+                        <input type="number" placeholder="How Many Persons?" min="1">
+                        <input type="submit" value="BOOK TABLE">
+                    </div>
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <img src="./images/logo.png" alt="Logo Little Lemon Restaurant small">
+        </div>
+        <div>
+            <p class="copyright"> ©️Copyright Little Lemon restourant</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
